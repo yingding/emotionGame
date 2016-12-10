@@ -1,0 +1,33 @@
+﻿  camera_viewer.cpp
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(164): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(283): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(289): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(291): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(292): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(293): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(294): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(295): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(307): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(309): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(311): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(313): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(316): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(318): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(320): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(322): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(324): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(326): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(300): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(306): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\PlottingImageListener.h(332): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Src\camera_viewer.cpp(140): warning C4996: 'affdex::Detector::setLicensePath': was declared deprecated
+  c:\program files\affectiva\affdex sdk\include\Detector.h(71): note: see declaration of 'affdex::Detector::setLicensePath'
+  DF_CameraViewer_vs2015.vcxproj -> C:\Users\Mahdi\Documents\RSSDK\Samples\DF_CameraViewer\bin/x64/DF_CameraViewer_d.exe
+  DF_CameraViewer_vs2015.vcxproj -> bin/x64/DF_CameraViewer_d.pdb (Full PDB)
