@@ -4,11 +4,13 @@
 # Install PyAudio
 # sudo apt-get install python-pyaudio python3-pyaudio
 # Install PortAudio
+
 sudo apt-get install libasound-dev
 sudo apt-get install portaudio19-dev
 sudo apt-get install python-all-dev
 
-Download portaudio from http://portaudio.com/download.html
+
+get from http://portaudio.com/download.html
 
 tar -zxvf [portaudio.tgz]
 
