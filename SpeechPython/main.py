@@ -12,7 +12,7 @@ with sr.Microphone() as source:
     print("Say something!")
     audio = r.listen(source)
  
- 
+
 f = audio.get_wav_data()
 open("sound.wav", "wb").write(f)
 
