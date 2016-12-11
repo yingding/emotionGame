@@ -10,7 +10,7 @@ r = sr.Recognizer()
 with sr.Microphone() as source:
     r.adjust_for_ambient_noise(source)
     print("Say something!")
-    audio = r.listen(source)
+    audio = r.listen(source, 0, 3)
  
 
 f = audio.get_wav_data()
