@@ -2,6 +2,7 @@
 
 import threading as tr
 from SpeechPython.speech import Speech
+import time
 
 
 # import sys
@@ -21,9 +22,9 @@ def main():
     # Start the game
     s = Speech()
     s.create_talk("Welcome to the emotion game.", "id1")
-    tr1 = RosFace().start()
     s.play_talk("id1")
-    
+    #tr1 = RosFace().start()
+    time.sleep(10000)
     
 main()
 
