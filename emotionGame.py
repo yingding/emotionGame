@@ -51,21 +51,20 @@ def main():
     talk.initSentence("Do you want to play the game?", "id2")
     talk.run()
 
-    time.sleep(2)
+    time.sleep(1)
 
     answer = s.listen(3)
     print(answer)
     if 'y' in answer:
+        talk.initSentence("Please make a mimic", "id4")
+        talk.run()
+        time.sleep(2)
         endGame = False
     else: 
         talk.initSentence("Oh, Maybe next time.", "id3")
         talk.run()
         time.sleep(2)
-        endGame = True
-    
-    talk.initSentence("Please make a mimic", "id4")
-    talk.run()
-    sleep(2)
+        endGame = True    
     
     while not endGame:
         for event in pg.event.get(): 
@@ -74,15 +73,13 @@ def main():
         pressedKey = pg.key.get_pressed()
         if pressedKey[K_q]:
             endGame = True
-        p = subprocess.Popen(["rosrun "], stdout=subprocesss.PIPE, stderr=subprocess.PIPE)
-        p.wait()   
+        
+
+        subprocess.call('ls')
+
+        time.sleep(2)
 
 pg.init()    
 main()
 
     
-
-    
-    
-
-
