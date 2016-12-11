@@ -1,0 +1,8 @@
+prefix=/home/sebtut/catkin_ws/install
+
+Name: librealsense
+Description: Description of librealsense
+Version: 1.11.1
+Cflags: -I/home/sebtut/catkin_ws/install/include
+Libs: -L/home/sebtut/catkin_ws/install/lib -lrealsense
+Requires: 

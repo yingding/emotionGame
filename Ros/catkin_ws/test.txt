@@ -1,0 +1,28 @@
+
+smile	64.0715
+
+surprise	86.9746
+
+sad	91.6786
+
+surprise	72.87
+
+anger	0.00193738
+
+smile	75.2237
+
+smile	53.1471
+
+surprise	73.5698
+
+anger	0.796281
+
+smile	75.1073
+
+surprise	81.7442
+
+anger	36.089
+
+smile	75.0524
+
+surprise	86.5763

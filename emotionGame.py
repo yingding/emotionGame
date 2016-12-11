@@ -75,9 +75,10 @@ def main():
             endGame = True
         
 
-        subprocess.call('ls')
+        subprocess.call('rosrun roboy_ros_face test_client -d /home/sebtut/affdex-sdk/data')
 
-        time.sleep(2)
+        time.sleep(10)
+	endGame = True
 
 pg.init()    
 main()
