@@ -36,6 +36,7 @@ class AsyncTalker(tr.Thread):
         s.play_talk(self.talkId) 
 
 def main():
+    time.sleep(2000)
     # Start the game
     global endGame
     global s
