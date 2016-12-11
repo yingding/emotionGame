@@ -13,7 +13,7 @@ class Speech:
         pygame.mixer.init()
 
 
-    def ceate_talk(self, str, fname, l='en'):
+    def create_talk(self, str, fname, l='en'):
         """
         function takes (text) and saves it to (file_name).mp3
 
