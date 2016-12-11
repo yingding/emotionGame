@@ -2,6 +2,7 @@
 
 import threading as tr
 from SpeechPython.speech import Speech
+import time
 
 
 # import sys
