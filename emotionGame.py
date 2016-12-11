@@ -36,7 +36,7 @@ class AsyncTalker(tr.Thread):
         s.play_talk(self.talkId) 
 
 def main():
-    time.sleep(2)
+    # time.sleep(2)
     # Start the game
     global endGame
     global s
@@ -45,24 +45,33 @@ def main():
     talk.initSentence("Welcome to the emotion game.", "id1")
     tr1 = RosFaceTR().start()
     talk.run()
- 
+    
+    time.sleep(3)
+
     talk.initSentence("Do you want to play the game?", "id2")
     talk.run()
 
-    if 'y' in s.listen(3):
+    time.sleep(2)
+
+    answer = s.listen(3)
+    print(answer)
+    if 'y' in answer:
         endGame = False
     else: 
         talk.initSentence("Oh, Maybe next time.", "id3")
-        talk.run()   
+        talk.run()
+        time.sleep(2)
         endGame = True
     
+    talk.initSentence("Please make a mimic", "id4")
+
     while not endGame:
         for event in pg.event.get(): 
             if event.type == QUIT:
                 endGame = True
         pressedKey = pg.key.get_pressed()
-        #if pressedKey[K_q]
-        #    endGame = True
+        if pressedKey[K_q]:
+            endGame = True
     
 
 pg.init()    
