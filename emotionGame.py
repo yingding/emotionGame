@@ -64,7 +64,9 @@ def main():
         endGame = True
     
     talk.initSentence("Please make a mimic", "id4")
-
+    talk.run()
+    sleep(2)
+    
     while not endGame:
         for event in pg.event.get(): 
             if event.type == QUIT:
@@ -72,7 +74,8 @@ def main():
         pressedKey = pg.key.get_pressed()
         if pressedKey[K_q]:
             endGame = True
-    
+        p = subprocess.Popen(["rosrun "], stdout=subprocesss.PIPE, stderr=subprocess.PIPE)
+        p.wait()   
 
 pg.init()    
 main()
