@@ -13,7 +13,8 @@ import subprocess
 from pygame.locals import *
 
 
-endGame = False 
+start_roboy_cmd = "rosrun roboy_ros_face test_client -d /home/sebtut/affdex-sdk/data"
+
 
 class RosFaceTR(tr.Thread):
     def __init__(self):
@@ -22,6 +23,7 @@ class RosFaceTR(tr.Thread):
     def run(self):
         pass
         
+
 class AsyncTalker(tr.Thread):
     def __init__(self):
         super(AsyncTalker, self).__init__()
@@ -35,10 +37,10 @@ class AsyncTalker(tr.Thread):
         s.create_talk(self.sentence, self.talkId)       
         s.play_talk(self.talkId) 
 
+
 def main():
     # time.sleep(2)
     # Start the game
-    global endGame
     global s
     s = Speech()
     talk = AsyncTalker()
@@ -59,28 +61,14 @@ def main():
         talk.initSentence("Please make a mimic", "id4")
         talk.run()
         time.sleep(2)
-        endGame = False
+
+        subprocess.call(start_roboy_cmd)
+
     else: 
         talk.initSentence("Oh, Maybe next time.", "id3")
         talk.run()
         time.sleep(2)
-        endGame = True    
-    
-    while not endGame:
-        for event in pg.event.get(): 
-            if event.type == QUIT:
-                endGame = True
-        pressedKey = pg.key.get_pressed()
-        if pressedKey[K_q]:
-            endGame = True
         
-
-        subprocess.call('rosrun roboy_ros_face test_client -d /home/sebtut/affdex-sdk/data')
-
-        time.sleep(10)
-	endGame = True
 
 pg.init()    
 main()
-
-    
