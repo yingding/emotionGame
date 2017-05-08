@@ -1,0 +1,2 @@
+librealsense:roboy_ros_face
+-DCATKIN_DEVEL_PREFIX=/home/sebtut/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sebtut/catkin_ws/install -G Unix Makefiles

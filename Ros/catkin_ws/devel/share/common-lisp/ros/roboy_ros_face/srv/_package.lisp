@@ -1,0 +1,10 @@
+(cl:defpackage roboy_ros_face-srv
+  (:use )
+  (:export
+   "PLAYEMOTIONSRV"
+   "<PLAYEMOTIONSRV-REQUEST>"
+   "PLAYEMOTIONSRV-REQUEST"
+   "<PLAYEMOTIONSRV-RESPONSE>"
+   "PLAYEMOTIONSRV-RESPONSE"
+  ))
+
